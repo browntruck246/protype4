@@ -13,7 +13,7 @@ public class MainController {
     @GetMapping("/hello")
     @ResponseBody
     public String sayHello() {
-        System.out.println("*** sayHello ***" );
+        System.out.println("*** hello ***" );
 
         return "Hello, World!";
     }
